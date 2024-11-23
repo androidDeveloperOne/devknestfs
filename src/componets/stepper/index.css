@@ -1,0 +1,50 @@
+.bg-gray-300,
+.bg-gray-900 {
+    display: none;
+}
+
+
+
+.overflow-container2::-webkit-scrollbar {
+  height: 4px;
+  width: '12%';
+
+
+
+}
+
+.overflow-container2::-webkit-scrollbar-track {
+  background: white;
+  
+ 
+}
+
+.overflow-container2::-webkit-scrollbar-thumb {
+  background-color: cornflowerblue;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+hr {
+  height: 1px;
+  color: #123455;
+  background-color: #123455;
+  border: none;
+}
+
+@media (min-width: 1024px) {
+    .md\:start-60 {
+      inset-inline-start: 23rem;
+    }
+  }
+  @media (max-width: 1024px) and (min-width: 768px)  {
+    .md\:start-60 {
+      inset-inline-start: 17rem;
+    }
+  }
+  @media (max-width: 1400px) and (min-width: 1380px)  {
+    .md\:start-60 {
+      inset-inline-start: 22rem;
+    }
+  }
