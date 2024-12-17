@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+html,
+body {
+  font-family: "Open+Sans" !important;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+select,
+li,
+option {
+  font-family: "Noto Sans", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.custom-font-class {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.cardh {
+  height: 200;
+  width: 200;
+}
+
+input:active {
+  border-color: none;
+}
+
+.backgroundColor {
+  background: linear-gradient(
+    210deg,
+    rgba(222, 211, 51, 1) 0%,
+    rgba(222, 211, 51, 1) 54%,
+    rgba(222, 211, 51, 1) 44%,
+    rgba(0, 138, 131, 1) 99%
+  );
+}
+
+input.ant-input.ant-input-disabled.css-dev-only-do-not-override-17sses9 {
+  color: rgb(163 163 163);
+}
+
+iframe {
+  overflow: hidden;
+}
+
+.dropzoneStyle {
+  border: 2px dashed #cccccc;
+  border-radius: 4px;
+  /* position: absolute; */
+  padding: 40px;
+  /* left: 50px; */
+  text-align: "center";
+  cursor: "pointer";
+}
+
+.progress-bar-container {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #ddd;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  /* height: 100%; */
+color: #1f51a6;
+  /* or any color you prefer */
+}
+
+.activity-background {
+  background-color: #1f51a6;
+}
+.activity-border {
+  border-color: #1f51a6;
+}
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(255, 255, 255, 0.8); You can adjust the background color and opacity */
+  z-index: 999;
+}
+
+.loading-containerCDUD {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: rgba(211, 208, 237, 0.4);
+  z-index: 999;
+}
+
+.activity-font {
+  font-size: 13px;
+}
+
+.custom-width {
+  width: "80%";
+}
+
+.overflow-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.overflow-container::-webkit-scrollbar-track {
+  background: white;
+}
+
+.overflow-container::-webkit-scrollbar-thumb {
+  background-color: cornflowerblue;
+  border-radius: 2px;
+  height: 30px;
+  top: 58;
+  cursor: pointer;
+}
+
+.break-line {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top: 4px solid #fff;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.date-input {
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 8px;
+  width: 30;
+  height: 40px;
+}
+
+select {
+  width: 250px;
+}
+
+:where(
+    .css-dev-only-do-not-override-1kuana8
+  ).ant-input-outlined.ant-input-disabled
+  input[disabled],
+:where(.css-dev-only-do-not-override-1kuana8).ant-input-outlined[disabled]
+  input[disabled] {
+  cursor: not-allowed;
+  color: #818284;
+}
+
+:where(.css-1kuana8).ant-input-outlined.ant-input-disabled input[disabled],
+:where(.css-1kuana8).ant-input-outlined[disabled] input[disabled] {
+  cursor: not-allowed;
+  color: #818284;
+}
+
+.success-size {
+  height: 200px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
